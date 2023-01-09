@@ -1,4 +1,4 @@
-# Default values for clearlinux.
+# Default values for cl.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
@@ -47,7 +47,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: httpd.local
+    - host: http.local
       paths:
         - path: /
           pathType: ImplementationSpecific
